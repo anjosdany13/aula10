@@ -1,0 +1,38 @@
+.css {
+    border:solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+    margin: 100px;
+    padding: 120px;
+        }
+
+.boxModel {
+    width: 100px;
+    height: 110px;
+    border: dotted;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+margin-left: 8px;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-right: 9px;
+padding-left: 9px;
+overflow: scroll;
+}
+
+p {
+display: inline;
+background-color: yellow;
+}
+
+span {
+    display: block;
+}
+    body {
+background-color: aquamarine;
+    }
